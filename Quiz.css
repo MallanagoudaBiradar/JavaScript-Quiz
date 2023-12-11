@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Silkscreen&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+  
+body {
+    background-image: url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211001052647/JavaScriptEx-min.png");
+    /* background: linear-gradient(110deg, rgb(130, 134, 53), rgb(229, 225, 6)); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight:bold
+}
+
+h1{
+   
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    padding-top: 45px;
+    color: red;
+}
+
+.main{
+    background-color: white !important;
+    width: 40%;
+    border-radius: 10px;
+    min-width: 600px !important;
+    padding: 20px;
+    margin: 30px auto 0;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.option{
+    width: 100%;
+    border-radius: 10px !important;
+    font-weight: bold;
+    font-size: 15px !important;
+    margin: 10px 0;
+    height: 39px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.option:hover{
+    background-color: rgb(201, 204, 150);
+    color: white;
+    font-size: 20px;
+}
+
+#nxt-btn{
+    width: 130px;
+    height: 39px;
+    background-color: rgb(19, 115, 232) !important;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 15px;
+    margin-left: 39%;
+    border-radius: 10px !important;
+    display: none;
+}
+
+#nxt-btn:hover{
+    background-color: royalblue;
+    color:white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.btn{
+    width: 100%;
+    border-radius: 10px !important;
+    font-weight: bold;
+    font-size: 15px !important;
+    margin: 10px 0;
+    height: 39px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background-color: rgb(201, 204, 150);
+    color: black;
+    font-size: 20px;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+.Correct{
+    background-color: rgb(88, 213, 88);
+}
+
+.Incorrect{
+    background-color: red;
+}
